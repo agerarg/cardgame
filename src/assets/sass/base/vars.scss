@@ -1,0 +1,10 @@
+$palette: (
+  'primary': #FFC926, 
+  'accent': #d98328,
+  'secondary': #5a1321,
+  'foreground': brown,
+  'background': #444
+);
+@function color($set){
+         @return map-get($palette,$set);
+}
